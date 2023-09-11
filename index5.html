@@ -1,0 +1,133 @@
+<!--Code by Raghav N G 21BCE6199-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <caption>
+                <h1 style="color: red;">Registration Form</h1>
+            </caption>
+            <tr>
+                <td><label for="firstname">First Name</label></td>
+                <td><input type="text" name="firstname" id="firstname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="lastname">Last name</label></td>
+                <td><input type="text" name="lastname" id="lastname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+    
+            <tr>
+                <td><label for="repassword">Re-enter Password</label></td>
+                <td><input type="password" name="repassword" id="repassword"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="2"><label for="Gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="male" value="male">
+                    Male
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="gender" id="female" value="female">
+                    Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" name="age" id="age"></td>
+            </tr>
+                
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>
+                    <textarea name="address" id="address" cols="21" rows="10">
+                    </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><input type="text" name="state" id="state"></td>
+            </tr>
+
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select name="country" id="country">
+                            <option value="" disabled selected hidden>Choose your country</option>
+                            <option value="india">India</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                            <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="languages">Languages known</label></td>
+                <td>
+                    <input type="checkbox" name="languages" id="english" value="english">
+                    <label for="english">English</label>
+
+                    <input type="checkbox" name="languages" id="kannada" value="kannada">
+                    <label for="kannada">Kannada</label>
+
+                    <input type="checkbox" name="languages" id="hindi" value="hindi">
+                    <label for="hindi">Hindi</label>
+
+                    <input type="checkbox" name="languages" id="telugu" value="telugu">
+                    <label for="telugu">Telugu</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="declare" id="declare">
+                    <label for="declare">
+                        Hereby I declare all the given details are true
+                    </label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="right">
+                        Log in to <a href="https://ethnus.com/">Ethnus</a> website
+                    
+                </td>
+            </tr>
+
+
+
+        </table>
+        
+        <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">Save</button>
+
+    </form>
+    
+</body>
+</html>
